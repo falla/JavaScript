@@ -13,7 +13,6 @@ var xhdput = ["", "", "",""];
 document.getElementById("xxx").value= ooo.value.replaceArr ( xhdget, xhdput );
 document.getElementById("email").value='admin@'+document.getElementById("xxx").value;
 }
-//to use
-//<input onkeyup="xhd(this)" type="text" id="urldemo">
-//<input id="xxx" type="hidden">
-//<input type="text" id="emaildemo">
+//<input onkeyup="xhd(this)" type="text" name="url" id="url" >网址
+//<input id="xxx" type="hidden" />
+//<input type="text" name="email" id="email" >邮箱
