@@ -1,3 +1,18 @@
+//to use
+/**
+ * <form id="getStart" name="getStart">
+ * <div>
+ * <li> <input type="checkbox" name="test" value="" onclick="if(this.checked==false) { clearAll('xhd');getChecked(); } else { checkAll('xhd');getChecked(); }"/>全选/取消</li>
+ * <li> <input type="checkbox" name="xhd" value="123" onclick="getChecked();" />链接123</li>
+ * <li> <input type="checkbox" name="xhd" value="456" onclick="getChecked();" />链接456</li>
+ * <li> <input type="checkbox" name="xhd" value="890" onclick="getChecked();" />链接890</li>
+ * <li> <input type="checkbox" name="xhd" value="XXX" onclick="getChecked();" />链接XXX</li>
+ * </div>
+ * <div>
+ * <textarea id="result" name="result" value="还未选择"></textarea> <button onclick="javascript:copyTo('result',true);">复制</button>
+ * </div>
+ * </form>
+**/
 function checkAll(name)//全选
 {
 var el = document.getElementsByTagName('input');
